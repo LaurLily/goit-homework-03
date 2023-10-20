@@ -310,13 +310,14 @@ img{
 
 .page-footer{
     background-color: #2E2F42;
+    padding: 100px 0;
     
 }
 .footer-container{
     padding: 100px 0;
 }
 .footer-logo{
-    display: inline-block; 
+    display: inline-block;  
     color: #F4F4FD;
     line-height: 1.17; 
     margin-bottom: 16px;
