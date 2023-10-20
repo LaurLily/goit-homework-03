@@ -56,11 +56,7 @@ img{
     align-items: center;
     margin-right: 332px;
 }
-.menu{
-    display: flex;
-    gap: 40px;
-    padding: 24px 0;
-}
+
 
 .page-header{
     background-color: #FFFFFF;
@@ -81,6 +77,16 @@ img{
 
 .header-logo{
     color:#2E2F42;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.menu-item{
+    padding: 24px 0;
 }
 
 .menu-link{
@@ -163,6 +169,10 @@ img{
 }
 
 /* About Us Section*/
+
+.about-section{
+    padding: 120px 0;
+}
 
 .visually-hidden {
     position: absolute;
@@ -316,12 +326,17 @@ img{
 .footer-container{
     padding: 100px 0;
 }
-.footer-logo{
-    display: inline-block;  
-    color: #F4F4FD;
-    line-height: 1.17; 
-    margin-bottom: 16px;
+
+.footer-logo-link{
+display: inline-block; 
+margin-bottom: 16px;
 }
+
+.footer-logo{
+    color: #F4F4FD;
+    line-height: 1.17;    
+}
+
 .footer-discription{
     color: #F4F4FD;
     font-size: 16px;
